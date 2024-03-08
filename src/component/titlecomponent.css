@@ -1,0 +1,25 @@
+.titlecomponent-div{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid;
+    position: fixed;
+    background-color:var(--dusty--white);
+    top: 0;
+    width: 100%;
+    
+    
+}
+ .titlecomponent-div>form{
+    
+    background-color: white;
+    border-radius: 2rem;
+    padding: 5px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ width: 25%;
+} 
+.titlecomponent-div>form>.input{
+    all: unset;
+}
+
